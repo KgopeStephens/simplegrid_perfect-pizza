@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Pizza</title>
+    <link rel="stylesheet" href="simplegrid.css">
+</head>
+
+<body>
+    <style>
+        body {
+            background-color:rgb(231, 199, 14);
+            margin: 0;
+        }
+
+    .container {
+    display: grid;
+    grid-template-columns: repeat(3,1f);
+    padding: 50px 20px;
+    grid-column-gap:20px;
+    grid-row-gap:30px;
+   
+        }
+       .box {
+            background-color: rgb(87, 143, 207);
+            width: 100%
+            
+            
+        }
+    .row img{
+       
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    /*align-items: center;*/
+    cursor: pointer;
+    transition: 0.5s ease;
+    border-radius: 2em;
+    padding: 1em;
+   /* border: 1em;*/
+}
+
+.row img:hover {
+    transform: scale(1.04);
+}
+.row h4 {
+    padding: 5px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(218, 21, 50);
+    border-radius: 1em;
+}
+.col-4{ 
+    background-color: rgba(99, 187, 96, 0.911);
+    border: 1em;
+    text-align: center;
+    border-radius: 1.2em;
+    
+   
+}
+h6{
+    text-align: center;
+}
+
+h3,h2 {
+    text-align: center;
+}
+.col-4 > div{
+    text-align: center;
+}
+.col-12 > div,h2{
+    margin: 0;
+    padding: 0;
+ 
+    }
+  
+    .col-4 > div,h3{
+        margin: 0;
+        padding: 0;
+
+    }
+
+.contact_us {
+    text-align: center;
+   
+    border-radius: 1em;
+    margin: 0;
+    padding: 0;
+}
+.col-12 > div h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+</style>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+            <h1>Perfect-pizza</h1>
+            </div>
+            <div class="box">
+          <div class="col-4">
+            <h2>Small Pizza</h2>
+            <img src="pizza-1.png" width="250" class="center">
+            <h3>R29.95</h3>
+            <div>
+                Single small chicken BBQ and mushroom pizza with extra mozzarella cheese and p
+            </div>
+          </div>
+          </div>
+          <div class="box">
+          <div class="col-4">
+            <h2>Medium Pizza</h2>
+            <img src="pizza-1.png" width="250" class="center">
+            <h3>R89.95</h3>
+            <div>
+                Medium thick base chicken BBQ and mushroom pizza with extra mozzarella cheese and pepparoni.
+            </div>
+          </div>
+          </div>
+        <div class="box">
+          <div class="col-4">
+            <h2>Large Pizza</h2>
+            <img src="pizza-1.png" width="250" class="center">
+            <h3>R129.95</h3>
+            <div>
+                Two large thin base chicken BBQ and mushroom pizza with red hot peppers and pepparoni as toppings.
+            </div>
+          </div>
+        </div>
+
+        
+      
+    </div>
+    </div>
+    
+     
+    <div class="row">
+        <div class="col-12">
+        <div class="contact_us">
+          <h2> Contact details</h2>
+            <div>Contact us at: 0614013366 info@perfectpizza.co.za</div>
+        </div>
+        </div>
+        </div>
+      <div class="row">
+          <div class="col-12">
+              <div class="footer">
+                  <h6>Dikobe Kgope &copy2021 </h2>
+              </div>
+          </div>
+      </div>
+    
+    </body>
+
+
+
+</html>
